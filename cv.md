@@ -6,7 +6,7 @@ View it live: https://ursulaburak.github.io/rsschool-cv/cv
 
 # Burak Avcılar
 
-**Title**  —  Front-End Developer
+**Title**  — Front-End Developer
 
 ---
 
