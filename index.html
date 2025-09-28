@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/sass/style.css">
+    <link rel="shortcut icon" type="image/svg" href="./img/icons/emoji-smile.svg">
+    <title>Portfolio</title>
+</head>
+<body>
+<header class="header">
+    <div class="wrapper header__wrapper">
+        <span class="icon icon_moon theme-icon"></span>
+        <span class="header__burger burger"><span class="burger__line"></span></span>
+        <nav class="header__navigation">
+            <ul class="navigation">
+                <li><a class="navigation__link" data-goto="#about" href="#">About</a></li>
+                <li><a class="navigation__link" data-goto="#skills" href="#">Skills</a></li>
+                <li><a class="navigation__link" data-goto="#projects" href="#">Projects</a></li>
+                <li><a class="navigation__link" data-goto="#education" href="#">Education</a></li>
+                <li><a class="navigation__link" data-goto="#footer" href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+<h1 hidden>Burak Avcılar, Junior Front-End Developer</h1>
+<section id="about" class="about">
+    <div class="wrapper about__wrapper">
+        <div class="about__container">
+            <div class="about__photo-container">
+                <img src="./img/photo.png" alt="personal photo" class="about__photo shadow">
+            </div>
+            <div class="about__info">
+                <h3 class="about__greeting">Hi, I'm Burak</h3>
+                <h2 class="about__profession">Front-end Developer</h2>
+                <p class="about__description">"I enjoy turning ideas into working products and value both the quality of my work and the collaborative environment in which it’s created."</p>
+            </div>
+        </div>
+        <div class="about__buttons">
+            <a class="button button_download" href="./docs/ursulaburak_resume_frontend.pdf" download=""><span>Download CV</span></a>
+            <a class="button" href="https://t.me/AvciBurak26" target="_blank"><span>Write me</span></a>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+    <div class="wrapper skills__wrapper">
+        <h2 class="skills__title">Tech Skills:</h2>
+        <div class="skills-list">
+            <span class="skills-list_item">React</span>
+            <span class="skills-list_item">TypeScript</span>
+            <span class="skills-list_item">JavaScript</span>
+            <span class="skills-list_item">PHP, Codeigniter</span>
+            <span class="skills-list_item">Python, Flask</span>
+            <span class="skills-list_item">HTML5, CSS3</span>
+            <span class="skills-list_item">Bootstrap</span>
+            <span class="skills-list_item">Git</span>
+            <span class="skills-list_item">Bem</span>
+            <span class="skills-list_item">XML</span>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="wrapper">
+        <h2 class="projects__title">Projects:</h2>
+        <div class="projects__container">
+            <div class="project__item shadow">
+                <img src="./img/noteapp.jpg" alt="img of note app" class="project__img">
+
+                <div class="project__description project__description_left">
+                    <h3 class="project__name">note app</h3>
+                    <p class="project__technologies">React, Redux toolkit, Typescript</p>
+                    <a class="button" href="https://github.com/ursulaburak/Note-App" target="_blank"><span>See project</span></a>
+                </div>
+            </div>
+
+            <div class="project__item shadow">
+                <img src="./img/reactive.jpg" alt="img of sport center app" class="project__img">
+
+                <div class="project__description project__description_left">
+                    <h3 class="project__name">Sport Center register</h3>
+                    <p class="project__technologies">JavaScript, Sass</p>
+                    <a class="button" href="https://github.com/ursulaburak/Reactive-App" target="_blank"><span>Register fitness</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education">
+    <div class="wrapper education__wrapper">
+        <h2 class="education__title">Online classes:</h2>
+        <ul class="education-list">
+            <li class="education-list__item">Patika Plus, Front-End Web Development Program, 2025 (
+                <a href="https://cohorts.patika.dev/certificates/lS9_Vxms" target="_blank" class="navigation__link certificate__link">
+                    certificate
+                </a> )
+            </li>
+            <li class="education-list__item">Python Basics, Yetgim, 2025</li>
+            <li class="education-list__item">Rolling Scopes School, Javascript/Front-End Program, 2025 (Ongoing)</li>
+            <li class="education-list__item">Basics of programming, Kommunity, 2024</li>
+            <li class="education-list__item">Machine Learning, Ecoevo, 2020</li>
+        </ul>
+    </div>
+</section>
+
+</main>
+
+<footer id="footer">
+    <div class="wrapper footer__wrapper">
+        <ul class="navigation footer-navigation">
+            <li class="footer-navigation__item">
+                <a href="https://github.com/ursulaburak?tab=repositories" target="_blank" class="navigation__link footer-navigation__link">
+                    <span class="icon icon_github"></span>
+                    <span class="footer-navigation__link-name">GitHub</span>
+                </a>
+            </li>
+            <li class="footer-navigation__item">
+                <a href="https://gitlab.com/cronos_devops/orphans_notes/" target="_blank" class="navigation__link footer-navigation__link">
+                    <span class="icon icon_gitlab"></span>
+                    <span class="footer-navigation__link-name">GitLab</span>
+                </a>
+            </li>
+            <!--        <li><a href="">LinkedIn</a></li>-->
+        </ul>
+    </div>
+</footer>
+
+<button class="scroll-btn"></button>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
