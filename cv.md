@@ -47,7 +47,7 @@ Detail-oriented and highly motivated Front-End Developer with a strong foundatio
 ---
 
 ## Education
-**Eskisehir Osmangazi University** — Master's degree  
+**Eskisehir Osmangazi University** — Master's degree (Biology) 
 ** 2019 – 2022 **
 
 ---
