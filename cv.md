@@ -34,7 +34,6 @@ Detail-oriented and highly motivated Front-End Developer with a strong foundatio
 
 ---
 
-
 ## Experience
 ### Biodiversity Specialist — Mott Macdonald 
 *2024 – 2025*  
